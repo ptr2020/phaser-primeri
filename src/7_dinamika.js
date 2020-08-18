@@ -89,6 +89,7 @@ function create() {
   definiraneTipke.novaSkatla.addListener('down', () => {
     var enaSkatla = this.physics.add.image(arrow2.x, arrow2.y, 'block');
     // Skatli nastavimo hitrost 500 in njen vektor hitrosti zavrtimo za nakljucno stopinj od 0 do 360
+    enaSkatla.setScale(0.4);
     enaSkatla.setVelocity(Math.random()*500, 0);
     enaSkatla.body.velocity.rotate(Math.random() * 360);
 
