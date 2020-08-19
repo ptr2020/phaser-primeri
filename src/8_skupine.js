@@ -68,7 +68,9 @@ function create() {
 
   // Ustvarimo slikovni objekt (image).
   // Na začetku naj bo na poziciji x=200, y=200. Uporabimo pa naloženo sliko z imenom 'arrow'
-  arrow1 = this.add.image(200, 200, 'arrow');
+  arrow1 = this.add.image(300, 200, 'arrow');
+  arrow1.depth = 50;
+  arrow1.setScrollFactor(0, 0);
 
   // Ustvarimo slikovni objekt, vendar dodatno podpira fiziko.
   arrow2 = this.physics.add.image(300, 200, 'arrow');
