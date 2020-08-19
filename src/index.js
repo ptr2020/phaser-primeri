@@ -6,6 +6,7 @@
 //import './5_rotacija2';
 //import './6_text';
 //import './7_dinamika';
-import './8_skupine';
+//import './8_skupine';
+import './9_tipke2';
 
 
